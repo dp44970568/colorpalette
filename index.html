@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Color Palette Pro</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🎨 Color Palette Pro</h1>
+
+    <p>Generate, Lock, Save & Export Palettes</p>
+
+    <div class="controls">
+
+        <button id="generateBtn">
+            Generate Palette
+        </button>
+
+        <button id="saveBtn">
+            ❤️ Save Palette
+        </button>
+
+        <button id="gradientBtn">
+            🌈 Gradient
+        </button>
+
+        <button id="exportBtn">
+            📸 Export PNG
+        </button>
+
+    </div>
+
+    <div id="palette" class="palette"></div>
+
+    <div class="favorites">
+
+        <h2>Saved Palettes</h2>
+
+        <div id="savedPalettes"></div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
